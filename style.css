@@ -1,7 +1,7 @@
 body {
   font-family: arial;
   margin: 0px;
-  background-color: #A5C9CA;
+  background-color: #ff7402;
   display: grid;
   gap: 60px;
   justify-items: center;
@@ -55,11 +55,12 @@ p {
   border-radius: 4px;
   color: #000000;
   text-transform: uppercase;
-  border: 2px solid transparent;
+  border: 2px solid black;
 }
 
 .menu a:hover {
-  border: 2px solid #395B64;
+  background: black;
+  color: white;
 
 }
 
@@ -74,7 +75,7 @@ img {
 }
 
 .introducao {
-  background:  #395B64;
+  background:  black;
   color: white;
   padding: 40px;
   text-align: right;
@@ -93,7 +94,7 @@ img {
   content: "";
   width: 60px;
   height: 4px;
-  background-color:#99FFCD;
+  background-color: rgb(250, 205, 4);
   position: absolute;
   top: 30px;
   right: -30px;
@@ -105,7 +106,7 @@ img {
 }
 
 .botao {
-  background: #99FFCD;
+  background: rgb(250, 205, 4);
   color: black;
   margin: 20px;
   padding: 15px 30px;
@@ -114,7 +115,7 @@ img {
 }
 
 .botao:hover {
-  background:  #559676;
+  background: rgb(175, 144, 5);
 }
 
 .subtitulo {
@@ -128,7 +129,7 @@ img {
 }
 
 .vantagens {
-  background: #395B64;
+  background: black;
   padding: 40px;
 }
 
@@ -141,7 +142,7 @@ img {
 }
 
 .vantagens-item:hover {
-  border-left: 4px solid #99FFCD;
+  border-left: 4px solid #ff7402;
   
 } 
 
@@ -150,12 +151,12 @@ img {
 }
 
 .vantagens-item:nth-child(odd){
-  background: #A5C9CA;
+  background:whitesmoke;
   border-radius: 4px;
 }
 
 .vantagens-item:nth-child(even){
-  color:white;
+  color:whitesmoke;
 }
 
 .rodape {
