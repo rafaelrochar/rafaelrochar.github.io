@@ -1,7 +1,7 @@
 body {
   font-family: arial;
   margin: 0px;
-  background-color: #ff7402;
+  background-color: #630606;
   display: grid;
   gap: 60px;
   justify-items: center;
@@ -11,6 +11,12 @@ body {
 img {
   max-width: 100%;
   display: block;
+}
+
+.logo {
+  background: #FAC213;
+  padding: 10px 30px;
+  border-radius: 5px;
 }
 
 a {
@@ -46,21 +52,21 @@ p {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  margin-top: 60px;
 }
 
 .menu a {
   display: block;
-  background: white;
-  padding: 1rem 2rem;
+  background:#F7F7F7;
+  padding: 1rem 1rem;
   border-radius: 4px;
   color: #000000;
   text-transform: uppercase;
-  border: 2px solid black;
+  border: 2px solid transparent;
 }
 
 .menu a:hover {
-  background: black;
-  color: white;
+  border: 2px solid black;
 
 }
 
@@ -93,11 +99,13 @@ img {
 .introducao::before {
   content: "";
   width: 60px;
-  height: 4px;
-  background-color: rgb(250, 205, 4);
+  height: 3px;
+  background-color: #630606;
+  
   position: absolute;
   top: 30px;
   right: -30px;
+  border-radius: 1px;
 }
 
 .introducao-cover img {
@@ -106,7 +114,7 @@ img {
 }
 
 .botao {
-  background: rgb(250, 205, 4);
+  background: #FAC213;
   color: black;
   margin: 20px;
   padding: 15px 30px;
@@ -142,7 +150,7 @@ img {
 }
 
 .vantagens-item:hover {
-  border-left: 4px solid #ff7402;
+  border-left: 4px solid rgb(143, 12, 0);
   
 } 
 
